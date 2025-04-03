@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #f0f0f0;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    margin-bottom: 20px;
+}
+
+h1{
+    color:white;
+}
+
+header{
+    background-color: red;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+ul{
+    padding-top: 20px;
+    list-style: none;
+}
+
+ul li a{
+    color: white;
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nos{
+    text-align: center;
+}
+
+.geleria{
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+img{
+    width: 200px;
+    margin-left: 50px;
+    background-color:white;
+    box-shadow: 4px 4px 6px darkgreen;
+    cursor: pointer;
+    border-radius: 20%;
+    margin-top: 50px;
+}
+ 
+img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.nov{
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+footer{
+    margin-top: 200px;
+    background-color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
